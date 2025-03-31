@@ -1,8 +1,8 @@
 import React from "react";
+import { Metadata } from "next";
 
 import Homepage from "@/components/homepage/Homepage";
 import { getDomain } from "@/utils/functions/domain";
-import { Metadata } from "next";
 
 export async function generateMetadata() {
   const domain = await getDomain();
